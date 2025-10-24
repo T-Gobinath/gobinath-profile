@@ -1,0 +1,105 @@
+/* Style for the button inside the card */
+.credential-button {
+  background: none;
+  border: none;
+  color: #007bff; /* Or your link color */
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px; /* Space between icon and text */
+  font-size: 1em;
+  padding: 0;
+}
+
+.credential-button:hover {
+  text-decoration: underline;
+}
+
+/* Style for the main button at the bottom */
+.main-credential-button {
+  margin-top: 25px; /* Add space above the button */
+  font-size: 1.1em; /* Make it slightly bigger */
+  font-weight: bold;
+}
+
+/* Style for the links in the list */
+.credential-link {
+  color: #007bff; /* Or your link color */
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1em;
+}
+
+.credential-link:hover {
+  text-decoration: underline;
+}
+
+/* Title for the included courses list */
+.included-courses-title {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-size: 1.2em;
+  color: #fff; /* Set to white as requested */
+}
+
+/* Styles for the "Courses Included" list */
+.certification-list {
+  list-style-type: none; /* Remove default bullets */
+  padding-left: 0;
+}
+
+.certification-list li {
+  margin-bottom: 12px; /* Space between list items */
+}
+
+
+/* ----- MODAL STYLES ----- */
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  position: relative;
+  width: 80%;
+  height: 90%;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.modal-content iframe {
+  width: 100%;
+  height: calc(100% - 40px);
+  margin-top: 10px;
+}
+
+.modal-close-button {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #555;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.modal-close-button:hover {
+  color: #000;
+}
