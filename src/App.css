@@ -25,7 +25,11 @@ body {
   color: var(--text-color);
   line-height: 1.6;
 }
-
+.app--blurred {
+  filter: blur(2px);
+  pointer-events: none; /* prevents clicking during load */
+  user-select: none;
+}
 /* This rule fixes the background layering issue */
 .App {
   position: relative;
@@ -383,11 +387,13 @@ section {
 .contact-item:hover {
   transform: translateY(-5px);
 }
+
 .contact-item .icon {
   font-.size: 1.8rem;
   color: var(--primary-color);
   margin-right: 15px;
 }
+
 .contact-info h4 {
   margin: 0 0 5px 0;
   color: var(--text-color);
