@@ -8,13 +8,18 @@ const Experience = () => {
         <div className="timeline-item">
           <h3>Freelance Contractor</h3>
           <p className="period">2022 - 2024</p>
-          <p className="institution">Amazon Mechanical Turk</p>
+          <p className="institution">Web Developer in Wix.com</p>
           <ul>
-            <li>Performed data entry, verification, and cleanup tasks with high accuracy.</li>
-            <li>Conducted image tagging, classification, and content moderation to improve machine learning models.</li>
-            <li>Transcribed audio files for various clients.</li>
-            <li>Participated in academic surveys and market research studies.</li>
-            <li>Collected and organized data from websites for analysis.</li>
+            <li>Designed and developed responsive websites using
+Wix.com, customizing UI components to meet client
+and business requirements.</li>
+            <li>Integrated custom HTML, CSS, and JavaScript to
+extend Wix functionality and improve user experience
+across devices.</li>
+            <li>Deployed and managed websites on Azure and AWS
+platforms, ensuring reliable hosting, performance
+optimization, and basic SEO configuration.</li>
+            
           </ul>
         </div>
       </div>
