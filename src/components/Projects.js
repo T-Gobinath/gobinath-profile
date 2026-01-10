@@ -19,7 +19,7 @@ const Projects = () => {
           <span>Azure</span>
         </div>
         <div className="project-links">
-          <a href="https://gray-tree-04632fc0f.2.azurestaticapps.net/" target="_blank" rel="noopener noreferrer">
+          <a href="http://chatee-app.s3-website.eu-north-1.amazonaws.com/" target="_blank" rel="noopener noreferrer">
             <FaExternalLinkAlt /> Live Demo
           </a>
           <a href="https://github.com/T-Gobinath/Blog-Frontend-Az" target="_blank" rel="noopener noreferrer">
